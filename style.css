@@ -1,12 +1,13 @@
 :root {
-    --bg-color: #88bac7;
+    --bg-color1: white;
+    --bg-color2: #88bac7;
     --text-color1: black;
     --text-color2: white;
 
 }
 
 body {
-    color: var(--text-color1);
+    color: var(--text-color2);
 }
 
 p {
@@ -16,9 +17,18 @@ p {
 nav {
     font-family: 'Signika', sans-serif;
     font-size: 30px;
-    color: black;
+    color: var(--text-color2);
 }
 
 a {
-    color:black;
+    color: var(--text-color2);
+    text-decoration: none;
+    word-spacing: 5px;
 }
+
+body {
+    background-color: var(--bg-color1);
+}
+
+
+

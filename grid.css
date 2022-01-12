@@ -1,16 +1,25 @@
 :root {
-    --bg-color: #88bac7;
+    --bg-color1: white;
+    --bg-color2: #88bac7;
     --text-color1: black;
     --text-color2: white;
 
 }
-
+* {
+    margin-top: 0px;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .grid-container {
     display: grid;
     grid-template-areas: "nav nav nav"
                          "header header header"
                          "main main main"
-                         "footer footer footer"
+                         "footer footer footer";
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 50px;
 }
 
 .nav {
@@ -19,16 +28,25 @@
 
 .header {
     grid-area: header;
-    background-color: var(--bg-color); 
+    background-color: var(--bg-color2); 
     color: var(--text-color2);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .main {
     grid-area: main;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
 }
 
 .footer {
     grid-area: footer;
-    background-color: var(--bg-color); 
+    background-color: var(--bg-color2); 
     color: var(--text-color2);
 }
+
+
