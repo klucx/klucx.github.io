@@ -47,6 +47,9 @@
     grid-area: footer;
     background-color: var(--bg-color2); 
     color: var(--text-color2);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 
