@@ -12,6 +12,7 @@ body {
 
 p {
     font-family: 'Signika', sans-serif;
+    color: var(--text-color1);
 }
 
 nav {
@@ -33,6 +34,11 @@ body {
 
 a::after {
     content: "\00a0 \2022 \00a0";
+}
+
+ul {
+    color: var(--text-color1);
+    font-family: 'Signika', sans-serif;
 }
 
 
