@@ -37,4 +37,9 @@ ul {
     font-family: 'Signika', sans-serif;
 }
 
+h2 {
+    color: var(--text-color1);
+    font-family: 'Signika', sans-serif;
+    font-size: 27px;
+}
 
