@@ -1,0 +1,115 @@
+.slider { position: relative; }
+
+.slider input { display: none; }
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: left 0.3s; 
+     -moz-transition: left 0.3s;
+       -o-transition: left 0.3s;
+          transition: left 0.3s;
+}
+
+.slider li {
+  width: 20%;
+  height: 300px;
+  list-style-type: none;
+  float: left;
+}
+
+.slider span {
+  font-size: 3em;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.slider a { 
+    color: #fff; 
+}
+.slider a:hover { 
+    color: #ddd; 
+}
+
+.slider-circles {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+[class^="circle-"] {
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2px;
+  opacity: 0.5;
+}
+
+[class^="circle-"]:hover {
+  opacity: 1;
+}
+
+[class^="arrow-"] {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  font-size: 55px;
+  z-index: 999;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  opacity: 0.5;
+}
+
+[class^="arrow-"]:hover {
+  opacity: 1;
+}
+
+.left { left: 15px; }
+.left:after { content: "<"; }
+
+.right { right: 15px; }
+.right:after { content: ">"; }
+
+.slide-1 { background: #7c96bf; }
+.slide-2 { background: #acbf7c; }
+.slide-3 { background: #bf847c; }
+.slide-4 { background: #bfbd7c; }
+.slide-5 { background: #7cb3bf; }
+
+#button-1:checked ~ ul { left: 0; }
+#button-2:checked ~ ul { left: -100%; }
+#button-3:checked ~ ul { left: -200%; }
+#button-4:checked ~ ul { left: -300%; }
+#button-5:checked ~ ul { left: -400%; }
+
+#button-1:checked ~ .arrow-1,
+#button-2:checked ~ .arrow-2,
+#button-3:checked ~ .arrow-3,
+#button-4:checked ~ .arrow-4,
+#button-5:checked ~ .arrow-5 { 
+  display: block; 
+}
+
+#button-1:checked ~ .slider-circles .circle-1,
+#button-2:checked ~ .slider-circles .circle-2,
+#button-3:checked ~ .slider-circles .circle-3,
+#button-4:checked ~ .slider-circles .circle-4,
+#button-5:checked ~ .slider-circles .circle-5 { 
+  opacity: 1; 
+}

@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="icon" type = "image/x-icon" href = "assets/icon.ico">
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="slideshow.css" rel="stylesheet" type="text/css"
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Signika:wght@500&display=swap" rel="stylesheet">
@@ -29,9 +30,40 @@
       <div class="main">
         <p>The font used will be <a href style="color:black" = "https://fonts.google.com/specimen/Signika"> Signika.</a> The page's accent colors will be a dark-cyan color. (hex = #88bac7)</p>
         <p>Using what we learn in CSS and HTML, I will make a slideshow showing pictures of myself as a home screen.</p>
+
+        <div class="slider">
+          <input type="radio" id="button-1" name="circles" checked="checked"/>
+          <input type="radio" id="button-2" name="circles"/>
+          <input type="radio" id="button-3" name="circles"/>
+          <input type="radio" id="button-4" name="circles"/>
+          <input type="radio" id="button-5" name="circles"/>
+          
+          <ul>
+            <li class="slide-1"><span><img src="assets/linkedIn.png" width="150"> </span></li>
+            <li class="slide-2"><span><img src="assets/gmail.png" width="300"</span></li>
+            <li class="slide-3"><span><img src="assets/iglogo.png" width="150"</span></li>
+            <li class="slide-4"><span><img src="assets/twitterlogo.png" width="150"</span></li>
+            <li class="slide-5"><span>Grant Smells</span></li>
+          </ul>
+          
+          <label for="button-2" class="arrow-1 right"></label>
+          <label for="button-1" class="arrow-2 left"></label>
+          <label for="button-3" class="arrow-2 right"></label>
+          <label for="button-2" class="arrow-3 left"></label>
+          <label for="button-4" class="arrow-3 right"></label>
+          <label for="button-3" class="arrow-4 left"></label>
+          <label for="button-5" class="arrow-4 right"></label>
+          <label for="button-4" class="arrow-5 left"></label>
+          
+          <div class="slider-circles">
+            <label for="button-1" class="circle-1"></label>
+            <label for="button-2" class="circle-2"></label>
+            <label for="button-3" class="circle-3"></label>
+            <label for="button-4" class="circle-4"></label>
+            <label for="button-5" class="circle-5"></label>
+          </div>
+        </div>
       </div>
-
-
       <div class="footer">
         <img src="assets/linkedIn.png" width="35">
       </div>
