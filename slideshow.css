@@ -86,11 +86,11 @@
 .right { right: 15px; }
 .right:after { content: ">"; }
 
-.slide-1 { background: #7c96bf; }
-.slide-2 { background: #acbf7c; }
-.slide-3 { background: #bf847c; }
-.slide-4 { background: #bfbd7c; }
-.slide-5 { background: #7cb3bf; }
+.slide-1 { background: #88bac7; }
+.slide-2 { background: #88bac7; }
+.slide-3 { background: #88bac7; }
+.slide-4 { background: #88bac7; }
+.slide-5 { background: #88bac7; }
 
 #button-1:checked ~ ul { left: 0; }
 #button-2:checked ~ ul { left: -100%; }
