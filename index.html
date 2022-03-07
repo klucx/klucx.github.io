@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
     <title>Home</title>
     <link rel="icon" type = "image/x-icon" href = "assets/icon.ico">
     <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -17,52 +17,36 @@
       <script src="slideshow.js"></script>
       <div class="header">
         <nav>
-          <a href = "index.html">Home &#8226; </a>
-          <a href = "about.html">About Me &#8226; </a>
-          <a href = "certificates.html">Certificates &#8226; </a>
-          <a href = "projects.html">Projects &#8226; </a>
-          <a href = "contact.html">Contact Me</a>
+          <ul>
+           <li><a href = "index.html">Home &#8226; </a></li>
+           <li><a href = "about.html">About Me &#8226; </a></li>
+           <li><a href = "certificates.html">Certificates &#8226; </a></li>
+          <li><a href = "projects.html">Projects &#8226; </a></li>
+          <li><a href = "contact.html">Contact Me</a></li>
+          </ul>
           <hr>
           <!---BASE COLOR HEX: 88bac7-->
         </nav>
       </div>
       
       <div class="main">
-        <p>The font used will be <a href style="color:black" = "https://fonts.google.com/specimen/Signika"> Signika.</a> The page's accent colors will be a dark-cyan color. (hex = #88bac7)</p>
-        <p>Using what we learn in CSS and HTML, I will make a slideshow showing pictures of myself as a home screen.</p>
-
-        <div class="slider">
-          <input type="radio" id="button-1" name="circles" checked="checked"/>
-          <input type="radio" id="button-2" name="circles"/>
-          <input type="radio" id="button-3" name="circles"/>
-          <input type="radio" id="button-4" name="circles"/>
-          <input type="radio" id="button-5" name="circles"/>
-          
+        <br>
+        <h1>Who Am I?</h1>
+        <br>
+        <img id=imgPos1 src="assets/selfPic3.jpg" align="right"/>
+        <p>My name is Gavin Rupert. At the time of creation, I am 16 years old and a junior at Mentor High School in Mentor, Ohio. I started showing an interested in Computer Science and software development as early as a freshman in high school. I've always been someone who's interested in technology. From an early age I always questioned how things work. I loved to take apart my WII controllers and look at the circuits and wonder, "how do these work?". I decided that's what I wanted to do with  my career.<br>I'm someone who asks a lot of questions and is big on problem solving. Some of my favorable strengths include:</p>
+        <div class="blackList"
           <ul>
-            <li class="slide-1"><span><img src="assets/selfPic1.jpg" width="280"> </span></li>
-            <li class="slide-2"><span><img src="assets/selfPic2.jpg" width="235"</span></li>
-            <li class="slide-3"><span><img src="assets/selfPic3.jpg" width="250"</span></li>
-            <li class="slide-4"><span><img src="assets/selfPic4.jpg" width="500"</span></li>
-            <li class="slide-5"><span>Grant Smells</span></li>
+            <li>I make great use of my time</li>
+            <li>I work well with others</li>
+            <li>I don’t give up on an unsatisfactory project</li>
+            <li>I’m very flexible, regardless of the situation</li>
+            <li>I am self-motivated</li>
+            <li>I am a fast-learner</li>
           </ul>
-          
-          <label for="button-2" class="arrow-1 right"></label>
-          <label for="button-1" class="arrow-2 left"></label>
-          <label for="button-3" class="arrow-2 right"></label>
-          <label for="button-2" class="arrow-3 left"></label>
-          <label for="button-4" class="arrow-3 right"></label>
-          <label for="button-3" class="arrow-4 left"></label>
-          <label for="button-5" class="arrow-4 right"></label>
-          <label for="button-4" class="arrow-5 left"></label>
-          
-          <div class="slider-circles">
-            <label for="button-1" class="circle-1"></label>
-            <label for="button-2" class="circle-2"></label>
-            <label for="button-3" class="circle-3"></label>
-            <label for="button-4" class="circle-4"></label>
-            <label for="button-5" class="circle-5"></label>
-          </div>
         </div>
+        <br>
+        <p>I also show adaptibilty in and out of the workplace, so I'm able ensure that who I am working with recieves the best version of me. </p>
       </div>
       <div class="footer">
         <img src="assets/linkedIn.png" width="35">

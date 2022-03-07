@@ -20,6 +20,7 @@
     width: 100vw;
     height: 100vh;
     grid-gap: 50px;
+
     grid-template-columns: 1fr;
 }
 
@@ -32,8 +33,12 @@
     background-color: var(--bg-color2); 
     color: var(--text-color2);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 25px;
+    padding-inline: 0px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: center;
 }
 
 .main {
@@ -43,6 +48,7 @@
     margin-right: 10px;
     padding-top: 10px;
     min-height: 100vh;
+    padding-inline: 150px;
 }
 
 .footer {
@@ -51,7 +57,9 @@
     color: var(--text-color2);
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+    margin: auto;
+
 }
 
 

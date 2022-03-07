@@ -1,3 +1,8 @@
+* {
+    font-family: 'Signika', sans-serif;
+
+}
+
 :root {
     --bg-color1: white;
     --bg-color2: #88bac7;
@@ -11,14 +16,15 @@ body {
 }
 
 p {
-    font-family: 'Signika', sans-serif;
     color: var(--text-color1);
+    font-size: 15px;
+    line-height: 2;
 }
-
+ 
 nav {
-    font-family: 'Signika', sans-serif;
     font-size: 30px;
     color: var(--text-color2);
+    padding-inline: 0px;
 }
 
 a {
@@ -36,14 +42,32 @@ body {
     background-color: var(--bg-color1);
 }
 
+
 ul {
-    color: var(--text-color1);
-    font-family: 'Signika', sans-serif;
+    color: var(--text-color2);
+    list-style-type: none;
+
+}
+
+ul > li {
+    display: inline;
 }
 
 h2 {
     color: var(--text-color1);
-    font-family: 'Signika', sans-serif;
     font-size: 27px;
 }
 
+h1 {
+    font-size: 27px;
+}
+
+.blackList {
+    color: var(--text-color1);
+    font-size: 15px;
+    line-height: 2;
+}
+
+#imgPos1 {
+    width: 200px;
+}
