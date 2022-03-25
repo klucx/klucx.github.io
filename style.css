@@ -42,13 +42,6 @@ body {
     background-color: var(--bg-color1);
 }
 
-
-ul {
-    color: var(--text-color2);
-    list-style-type: none;
-
-}
-
 ul > li {
     display: inline;
 }
@@ -70,4 +63,9 @@ h1 {
 
 #imgPos1 {
     width: 200px;
+}
+
+.headerGuide {
+    color: var(--text-color2);
+    list-style-type: none;
 }

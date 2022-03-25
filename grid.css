@@ -39,6 +39,8 @@
     height: 100%;
     width: 100%;
     vertical-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .main {
