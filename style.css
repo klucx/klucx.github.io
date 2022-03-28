@@ -42,7 +42,7 @@ body {
     background-color: var(--bg-color1);
 }
 
-ul > li {
+nav > ul > li {
     display: inline;
 }
 
@@ -72,4 +72,8 @@ h1 {
 
 hr {
     background-color: black;
+}
+
+href {
+    display: inline-block;
 }
