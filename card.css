@@ -16,170 +16,58 @@ a {
 .card-list {
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
 }
 
-
-.card1 {
-    height: 426px;
+.card {
+    height: 475px;
     width: 190px;
     padding: 1.5rem;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: 0;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+}
+
+#card1 {
     background-image: url(assets/mainVer1.2Recent.png);
     background-size: 235px;
-    display: flex;
-    flex-direction: column;
-    transition: .2s;
-    margin: 0;
-    scroll-snap-align: start;
-    clear: both;
-    position: relative;
 }
-
-.card2 {
-    height: 426px;
-    width: 190px;
-    padding: 1.5rem;
-    border-radius: 16px;
+#card2 {
     background-image: url(assets/settingsPageRecent.png);
     background-size: 235px;
-    display: flex;
-    flex-direction: column;
-    transition: .2s;
-    margin: 0;
-    scroll-snap-align: start;
-    clear: both;
-    position: relative;
 }
-
-.card3 {
-    height: 426px;
-    width: 190px;
-    padding: 1.5rem;
-    border-radius: 16px;
+#card3 {
     background-image: url(assets/signUpRecent.png);
     background-size: 235px;
-    display: flex;
-    flex-direction: column;
-    transition: .2s;
-    margin: 0;
-    scroll-snap-align: start;
-    clear: both;
-    position: relative;
 }
-
-.card4 {
-    height: 426px;
-    width: 190px;
-    padding: 1.5rem;
-    border-radius: 16px;
+#card4 {
     background-image: url(assets/loginPageRecent.png);
     background-size: 235px;
-    display: flex;
-    flex-direction: column;
-    transition: .2s;
-    margin: 0;
-    scroll-snap-align: start;
-    clear: both;
-    position: relative;
 }
 
-.card1:focus-within~.card, .card1:hover~.card1 {
-    transform: translateX(130px);
-}
-
-.card2:focus-within~.card2, .card2:hover~.card2 {
-    transform: translateX(130px);
-}
-
-.card3:focus-within~.card3, .card3:hover~.card3 {
-    transform: translateX(130px);
-}
-
-.card4:focus-within~.card4, .card4:hover~.card4 {
-    transform: translateX(130px);
-}
-
-
-
-.card1:hover {
+.card:hover {
     transform: translateY(-1rem);
 }
 
-.card2:hover {
-    transform: translateY(-1rem);
+.card:hover~.card {
+    transform: translateX(130px);
 }
 
-.card3:hover {
-    transform: translateY(-1rem);
-}
-
-.card4:hover {
-    transform: translateY(-1rem);
-}
-
-.card1:not(:first-child) {
+.card:not(:first-child) {
     margin-left: -130px;
 }
-
-.card2:not(:first-child) {
-    margin-left: -130px;
-}
-
-.card3:not(:first-child) {
-    margin-left: -130px;
-}
-
-.card4:not(:first-child) {
-    margin-left: -130px;
-}
-
 
 .card-header {
     margin-bottom: auto;
 }
-
-
-
-.card-header h2 {
-    font-size: 20px;
-    margin: .25rem 0 auto;
-    text-decoration: none;
-    color: white;
-    border: 0;
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-}
-
-
 
 .tags {
     margin: 1rem 0 2rem;
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
-}
-
-.tags a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: .5rem;
-    color: #7a7a8c;
-    text-transform: uppercase;
-    font-size: .66rem;
-    border: 3px solid #28242f;
-    border-radius: 2rem;
-    padding: .2rem .85rem .25rem;
-    position: absolute;
-}
-
-.tags a:hover {
-    background: #88bac7;
-    text-shadow: none;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-box-decoration-break: clone;
-    background-clip: text;
-    border-color: white;
 }

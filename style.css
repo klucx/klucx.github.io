@@ -77,3 +77,11 @@ hr {
 href {
     display: inline-block;
 }
+
+.ita {
+    font-style: italic;
+}
+
+.block {
+    display: inline;
+}
