@@ -3,47 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
-    <title>Contact Me</title>
+    <title>Contact</title>
     <link rel="icon" type = "image/x-icon" href = "assets/icon.ico">
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Signika:wght@500&display=swap" rel="stylesheet">
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
   </head>
-    <style>@import url(grid.css);</style>
+  <style>
+    @import url(grid.css);
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+    </style>
     <body>
       <div class="header">
-        <div class="headerGuide">
-      <nav>
-        <ul>
-           <li><a href = "index.html">Home &#8226; </a></li>
-           <li><a href = "about.html">About Me &#8226; </a></li>
-           <li><a href = "certificates.html">Certificates &#8226; </a></li>
-           <li><a href = "projects.html">Projects &#8226; </a></li>
-           <li><a href = "resume.html">Resume &#8226; </a></li>
-           <li><a href = "contact.html">Contact Me</a></li>
-        </ul>
+        <nav>
+          <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">About Me</a></li>
+            <li><a href = "certificates.html">Certificates</a></li>
+            <li><a href = "projects.html">Projects</a></li>
+            <li><a href = "resume.html">Resume</a></li>
+            <li><a href = "contact.html">Contact Me</a></li>
+            <li>&nbsp;</li>
+         </ul>
           <hr>
-            <hr>
-            <!---BASE COLOR HEX: 88bac7-->
-          </nav>
-          </div>
-        </div>
+          <!---BASE COLOR HEX: 88bac7-->
+        </nav>
+      </div>
       <div class="main">
-
-        <form action="mail_handler.php" method="post">
+        <h6>CONTACT ME</h6>
+        <hr>
+        <form action="mail.php" method="post">
           First Name: <input type="text" name="first_name"><br>
           Last Name: <input type="text" name="last_name"><br>
           Email: <input type="text" name="email"><br>
           Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
           <input type="submit" name="submit" value="Submit">
           </form>
-        
-
-
-
-
-
       </div>
       <div class="footer">
         <a href="https://www.linkedin.com/in/gavin-rupert"><img src="assets/linkedIn.png" width="35"></a>

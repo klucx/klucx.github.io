@@ -3,7 +3,7 @@
     --bg-color2: #88bac7;
     --text-color1: black;
     --text-color2: white;
-
+    --bg-color-main: #262626;
 }
 * {
     margin-top: 0px;
@@ -30,9 +30,8 @@
 
 .header {
     grid-area: header;
-    background-color: var(--bg-color2); 
     color: var(--text-color2);
-    text-align: center;
+    text-align: right;
     padding-top: 25px;
     padding-inline: 0px;
     margin: auto;
@@ -46,7 +45,7 @@
 
 .main {
     grid-area: main;
-    color: black;
+    color: var(--text-color2);
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 10px;
@@ -56,13 +55,12 @@
 
 .footer {
     grid-area: footer;
-    background-color: var(--bg-color2); 
+    background-color: var(--bg-color-main); 
     color: var(--text-color2);
     text-align: center;
     padding-top: 20px;
     padding-bottom: 15px;
     margin: auto;
-
 }
 
 
