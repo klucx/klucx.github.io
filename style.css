@@ -4,34 +4,30 @@
 
 #neue {
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color: #262626;
     font-size: 200px;
     line-height: 175px;
-    margin-top: 0rem;
-    text-align: left;
+    margin:auto;
 }
 
 #desc {
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color: #262626;
     font-size: 50px;
     letter-spacing: 8px;
-    margin-top: -9rem;
-    text-align: left;
+    margin:auto;
 }
 
 :root {
-    --bg-color1: white;
-    --bg-color2: #88bac7;
+    --bg-color1: white;   
+    --bg-color-main: #262626; 
     --text-color1: black;
     --text-color2: white;
-    --bg-color-main: #262626;
-
 }
 
 body {
     color: var(--text-color2);
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -43,6 +39,7 @@ body {
     100% {
         opacity: 1;
      }
+    
 }
 
 p {
@@ -71,7 +68,6 @@ nav {
     color: var(--text-color2);
     padding-inline: 0px;
     word-spacing: 2rem;
-    mix-blend-mode: difference; 
 }
 
 
@@ -86,6 +82,11 @@ a:hover {
     color: #a8a8a8;
 }
 
+.vcenter {
+    display: flex;
+    height: 100%;
+    text-align: left;
+}
 
 body {
     background-color: var(--bg-color-main);

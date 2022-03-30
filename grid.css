@@ -15,6 +15,7 @@
     display: grid;
     grid-template-areas: "nav nav nav"
                          "header header header"
+                         "main0 main0 main0 main0"
                          "main main main"
                          "footer footer footer";
     width: 100vw;
@@ -37,7 +38,6 @@
     margin: auto;
     height: 100%;
     width: 100%;
-    vertical-align: center;
     position: sticky;
     top: 0;
     z-index:1000;
@@ -52,6 +52,17 @@
     min-height: 100vh;
     padding-inline: 150px;
 }
+
+.main0 {
+    grid-area: main0;
+    color: var(--bg-color-main);
+    background-color: white;
+    margin-bottom: 3rem;
+    margin-top: 30px;
+    height: 40vh;
+    vertical-align: center;
+}
+
 
 .footer {
     grid-area: footer;
