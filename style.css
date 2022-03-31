@@ -5,20 +5,22 @@
 #neue {
     font-family: 'Bebas Neue', cursive;
     color: #262626;
-    font-size: 200px;
+    font-size: 10vw;
     line-height: 175px;
     margin: auto;
     padding-top: 90px;
     padding-left: 60px;
+    text-size-adjust: auto;
 }
 
 #desc {
     font-family: 'Bebas Neue', cursive;
     color: #262626;
-    font-size: 50px;
+    font-size: 5vw;    
     letter-spacing: 8px;
     margin:auto;
     padding-left: 65px;
+    text-size-adjust: auto;
 
 }
 
@@ -54,7 +56,7 @@ p {
 
 
 #homePagePic {
-    width: 300px;
+    width: 15.3vw;
     padding-right: 300px; 
     position: relative;
     padding-top: 20px;
@@ -141,4 +143,8 @@ href {
 
 hr {
     margin-top: -6rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
