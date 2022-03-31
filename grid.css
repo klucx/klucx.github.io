@@ -15,7 +15,7 @@
     display: grid;
     grid-template-areas: "nav nav nav"
                          "header header header"
-                         "main0 main0 main0 main0"
+                         "main0 main0 main1 main1"
                          "main main main"
                          "footer footer footer";
     width: 100vw;
@@ -54,13 +54,22 @@
 }
 
 .main0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     grid-area: main0;
     color: var(--bg-color-main);
     background-color: white;
     margin-bottom: 3rem;
     margin-top: 30px;
-    height: 40vh;
+    height: 45vh;
     vertical-align: center;
+}
+
+.main1 {
+    text-align: right;
+    padding-right: 400px;
+    padding-top: -120px;
 }
 
 
