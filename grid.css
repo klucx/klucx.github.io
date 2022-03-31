@@ -15,7 +15,7 @@
     display: grid;
     grid-template-areas: "nav nav nav"
                          "header header header"
-                         "main0 main0 main1 main1"
+                         "main0 main0 main0 main0"
                          "main main main"
                          "footer footer footer";
     width: 100vw;
@@ -66,11 +66,7 @@
     vertical-align: center;
 }
 
-.main1 {
-    text-align: right;
-    padding-right: 400px;
-    padding-top: -120px;
-}
+
 
 
 .footer {

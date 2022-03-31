@@ -52,10 +52,13 @@ p {
     line-height: 2;
 }
 
-#desc1 {
-    color: var(--text-color1);
-    font-size: 15px;
-    line-height: 2;
+
+#homePagePic {
+    width: 300px;
+    padding-right: 300px; 
+    position: relative;
+    padding-top: 20px;
+    word-wrap: break-word;
 }
  
 h5 {
