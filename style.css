@@ -8,8 +8,8 @@
     font-size: 10vw;
     line-height: 175px;
     margin: auto;
-    padding-top: 90px;
-    padding-left: 60px;
+    padding-top: 15vh;
+    padding-left: 6vh;
     text-size-adjust: auto;
 }
 
@@ -19,7 +19,7 @@
     font-size: 5vw;    
     letter-spacing: 8px;
     margin:auto;
-    padding-left: 65px;
+    padding-left: 6.3vh;
     text-size-adjust: auto;
 
 }
@@ -57,9 +57,9 @@ p {
 
 #homePagePic {
     width: 15.3vw;
-    padding-right: 300px; 
+    padding-right: 30vh; 
     position: relative;
-    padding-top: 20px;
+    padding-top: 10vh;
     word-wrap: break-word;
 }
  
