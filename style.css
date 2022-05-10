@@ -146,6 +146,10 @@ hr {
     margin-top: -6rem;
 }
 
+#push {
+    margin-top: 6rem;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
