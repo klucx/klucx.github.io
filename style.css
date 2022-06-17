@@ -57,7 +57,8 @@ p {
 
 
 #homePagePic {
-    width: 23.3vw;
+    max-width: 100%;
+    height: auto;    
     padding-right: 10vh; 
     position: relative;
     padding-top: 5vh;
