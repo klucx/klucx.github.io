@@ -4,86 +4,179 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
     <title>Home</title>
-    <link rel="icon" type = "image/x-icon" href = "assets/icon.ico">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="slideshow.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type = "image/x-icon" href = "assets/logo.png">
+
   </head>
   <style>
     @import url(grid.css);
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+    @import url(style.css);
+    @import url(contact.css);
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap');
     </style>
     <body>
-      <script src="slideshow.js"></script>
-      <div class="header">
+      <div class="grid-container">
+      <div class="logo">
+        <img src="assets/logo.png" width="55px" id="HM">
+      </div>
+
+      <div class="nav">
         <nav>
           <ul>
-            <li><a id="title" href = "index.html">Home</a></li>
-            <li><a id="title" href = "certificates.html">Certificates</a></li>
-            <li><a id="title" href = "projects.html">Projects</a></li>
-            <li><a id="title" href = "resume.html">Resume</a></li>
-            <li>&nbsp;</li>
+            <li><a href = "#AM">About Me</a></li>
+            <li><a href = "#MW">My Work</a></li>
+            <li><a href = "#EXP">Experience</a></li>
+            <li><a href = "#CM">Contact</a></li>
          </ul>
-
-          <!---BASE COLOR HEX: 88bac7-->
         </nav>
       </div>
-      <div class="main0">
-        <div class="vcenter">
-          <img src="assets/states.png" align="right" id="homePagePic">
 
-          <h1 id="neue">GAVIN RUPERT</h1>
-          <h2 id="desc">Designer &#10072; Web Developer</h2>
+      <div class="area1">
+        <h1>Hi!<br>I'm Gavin</h1>
+      </div>
+
+      <div class="desc">
+        <p id="frontDesc">I’m a beginner designer finding a passion in user experience and user interface.</p>
+      </div>
+
+      <div class="homepic">
+        <img src="assets/selfPic.png" id="center" >
+      </div>
+
+      <div class="area2" id="AM">
+        <h2 id="alignAbout">A Little About Me</h2>
+        <p id="pageDesc">My full name is Gavin Tyler Rupert, and I’m a new UI/UX Designer out of Northeast Ohio. My dedication and attraction to user interface and user experience insure that any client recieves top of the line results. <br> <br> Through my experience and love of design, I will provide high-quality mockups to every client.</p>
+      </div>
+      
+      <div class="aboutpic">
+        <img src="assets/selfPic2.png" id="aboutPic2">
+      </div>
+
+      <div class="area3" id="MW">
+        <h2 id="area3title">My Latest Projects</h2>
+        <p id="pageDesc2">Some of my most recent projects which represent my ability as a designer.</p>
+        <br>
+        <a href="nftyPage.html"><img src="assets/NFTyPage.png" id="displays"></a>
+        <a href="vaughnPage.html"><img src="assets/VaughnPage.png" id="displays"></a>
+        <a href="stWikiPage.html"><img src="assets/stWikiPage.png" id="displays"></a>
+
+        
+
+
+
+      </div>
+
+      <div class="area4" id="EXP">
+        <br>
+        <h3>Scrambler's</h3>
+        <p id="work">Sep 2020 - Aug 2021</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Dick's Sporting Goods</h3>
+        <p id="work">Aug 2021 - Present</p>
+      </div>
+      <div class="midpic">
+          <svg width="78" height="421" viewBox="0 0 78 421" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="39" cy="39" r="25" fill="#718F94"/>
+          <circle cx="39" cy="39" r="37" stroke="#212121" stroke-width="4" stroke-dasharray="8 8"/>
+          <circle cx="39" cy="382" r="25" fill="#90B494"/>
+          <circle cx="39" cy="382" r="37" stroke="#212121" stroke-width="4" stroke-dasharray="8 8"/>
+          <line x1="39" y1="74" x2="39" y2="347" stroke="black" stroke-width="4" stroke-dasharray="8 8"/>
+          </svg>
+      </div>
+      <div class="jobdesc">
+        <br>
+        <h3>Busser</h3>
+        <p id="work">&#8226; Quickly and efficiently fully cleaning and clearing tables to ensure that customer wait times are significantly shorter<br><br>&#8226; Maintained a safe environment for customers by ensuring bathrooms, floors, tables, and seats consistently remained clean </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h3>Cashier / Aparrel</h3>
+        <p id="work">&#8226; Cashier that handled $3,000-$5,000 worth of merchandise every shift<br><br>&#8226; Using my skills and knowledge of clothing and sportswear to provide a swift experience for customers along with providing assistance to anyone who requires it
+        </p>
+
+      </div>
+          
+      <div class="area5" id="CM">
+        <h2 Id="area3title">Let's Make Something Happen</h2>
+        <div class="form" id="area3title">
+        <form action="contact.php" method="POST">
+          <div class="elem-group">
+            <label for="name">Your Name / Organization</label>
+            <br>
+            <input type="text" id="name" name="visitor_name" placeholder="John Doe /  Orange, Inc." pattern=[A-Z\sa-z]{3,20} required>
+          </div>
+          <div class="elem-group">
+            <label for="email">Your E-mail</label>
+            <br>
+            <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+          </div>
+          <div class="elem-group">
+            <label for="message">Your Message</label>
+            <br>
+            <textarea id="message" name="visitor_message" placeholder="Your message here" required></textarea>
+          </div>
+          <div class="button">
+          <button type="submit">Send Message</button>
+        </div>
+        </form>
+      </div>
+      </div>
+
+      <div class="desc2">
+        <nav>
+          <ul>
+            <li><a href = "#AM">About Me</a></li>
+            <br>
+            <br>
+            <br>
+            <li><a href = "#MW">My Work</a></li>
+            <br>
+            <br>
+            <br>
+            <li><a href = "#EXP">Experience</a></li>
+            <br>
+            <br>
+            <br>
+            <li><a href = "#CM">Contact</a></li>
+         </ul>
+        </nav>
+      </div>
+
+      <div class="hr">
+        <hr>
+      </div>
+
+      <div class="logo2">
+        <div class="logo2Align">
+        <a href="#HM"><img src="assets/logo.png" width="55px"></a>
+        <span><div class="vl"></div></span>
+        <p id="emailDesc"><a href="mailto:grupe05@icloud.com">Email&nbsp;Me</p></a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p><a href="https://www.linkedin.com/in/gavin-rupert"><img src="assets/linkedinLogo.png" width="50px"></a>
       </div>
     </div>
-      <div class="main">
-        <h6 id="push">Who Am I?</h6>
-        <hr>
-        <p>My full name is Gavin Tyler Rupert, and majority of my friends and family consider me to be the nerd of the group. It might have something to do with the fact that I've always been interested in technology and design. It's a nice idea to think about, how computers, TVs, and other electronics work. Ever since I've been fixated on the idea of how electronics work, I've started to gain experience in problem solving to figure out just how I could make things better.
-        <br>
-        <br>
-        I consider myself to be a great fit to any workplace and setting. Some of my most favorable traits include:
-        <ul>
-          <li>Extremely flexible</li>
-          <li>Highly adaptive</li>
-          <li>Quick learner</li>
-          <li>Patient</li>
-          <li>Positive attitude</li>
-        </ul>
-        </p>
-        <br>
-        <br>
-        <h6>GENERAL BACKGROUND ABOUT ME</h6>
-        <hr>
-        <p>
-          I am 17 years old, born and raised in Mentor, Ohio. Thanks to where we stand in technology, I've grown up surrounded by it. I've been given the opportunity to watch how technology improves in every aspect of including graphics, editing, vehicles, space, and more. Technology is a flourishing industry that will only grow in the future. 
-        </p>
-        <br>
-        <br>
-        <h6>MY GENERAL EXPERIENCE</h6>
-        <hr>
-        <p>
-          Much of my experience comes from the classes I've taken so far at Mentor High School. My first technology class was as early as middle school, where I took robotics and 3D design. Robotics for me was a great opening to the world of technology. There, I was able to understand and learn how software controls physical objects. 
-          <br>
-          <br>
-          In my sophmore year of high school, I took Computer Science Essentials, which I immediately fell in love with. In this class I recieved the highest average grade I have ever gotten, being a 98%. Furthermore, I was introduced on how programs themselves work. As an introduction, we worked heavily with Scratch, HTML, CSS, and JavaScript. 
-          <br>
-          <br>
-          In my current year as a junior, I've began taking a Career Tech Education program known as Programming & Software Development. I spend nearly half my day studying and practicing fundamentals in programming, visual programming, web design, and more. I've been able to further extend my knowledge through this program.
-          </p>
-  
-
-
-      
-
-
-
-
-
-
-      </div>
-      <div class="footer">
-        <p><a href="https://www.linkedin.com/in/gavin-rupert"><img src="assets/linkedIn.png" width="35"></a> <br> <a href="mailto:grupe05@icloud.com">Contact Me</a></p>
-      </div>
     </body>
 </html>

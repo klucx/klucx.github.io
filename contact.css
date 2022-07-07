@@ -1,0 +1,59 @@
+.form {
+    background: #F9F9F9;
+    /*box-shadow: 30px 30px 60px 0 rgba(0, 0, 0, 0.4);*/
+    border-radius: 15px;
+    max-width: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+div.elem-group {
+    margin: 40px 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: medium;
+  }
+  
+  label {
+
+    padding-bottom: 4px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: medium;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 500px;
+    padding: 8px;
+  }
+  
+  textarea {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: medium;
+    height: 250px;
+  }
+  
+  button {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: medium;
+    height: 50px;
+    background: #90B494;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+  }
+  
+  button:hover {
+    background: #7E9C81;
+  }
